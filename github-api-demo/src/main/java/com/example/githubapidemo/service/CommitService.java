@@ -33,6 +33,10 @@ public class CommitService {
         return builder.build();
     }
 
+    public List<Commit> getAll() {
+        return repository.findAll();
+    }
+
     public Boolean getCommitsProject(String url) throws JsonProcessingException {
 
         ResponseEntity<String> commitResponseEntity = restTemplate.exchange(url,
