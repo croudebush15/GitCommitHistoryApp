@@ -35,5 +35,8 @@ open a seperate command prompt in GitCommitHistoryApp/GithubCommitsHistoryApp/co
 open angular server at port 4200:
 
     ng serve --open
+    
+![Capture](Capture.PNG)
+
 
 Then press search button to see the commit history for this project! Also try other projects to see their own git commit histories. 
