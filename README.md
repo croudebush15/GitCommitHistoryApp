@@ -40,3 +40,6 @@ open angular server at port 4200:
 
 
 Then press search button to see the commit history for this project! Also try other projects to see their own git commit histories. 
+
+Search: uses localhost:8080/commits/croudebush15/GitCommitHistoryApp to validate project and get commits from Github API and stores them.
+Then uses localhost:8080/commits to retrieve list of commits from database.
